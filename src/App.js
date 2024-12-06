@@ -1,11 +1,13 @@
 import './App.css';
+import Introduction from './components/introduction';
+import Profile from './components/profile';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-      </header>
+    <div>
+      <Profile />
+      <Introduction name="adi" />
+      <Introduction name="luthfi" />
     </div>
   );
 }
